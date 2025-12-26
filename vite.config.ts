@@ -9,7 +9,7 @@ export default defineConfig({
     react(), 
     tailwindcss()
   ],
-  base: '/Tandem/', 
+  //base: '/Tandem/', 
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
