@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import logo from '@/assets/llogo.svg';
+import logo from '@/assets/logo.svg';
 
 const currentYear = new Date().getFullYear(); 
 
@@ -9,7 +9,7 @@ type SvgIcon = {
 };
 
 const IconSvg = ({icon, size}: SvgIcon) => (
-   <svg className={`inline-block w-${size} h-${size} mr-2 fill-neutral-700`}>
+   <svg className={`mr-2 fill-neutral-700`} width={size} height={size} >
        <use href={`sprite.svg#icon-${icon}`} />
    </svg>
 );
@@ -28,18 +28,18 @@ return (
                 (nicht eingetragener Verein)
             </p>
             <div className='flex items-center'>
-                <IconSvg icon='envelope' size="4"/>
+                <IconSvg icon='envelope' size="16"/>
                 <a href="mailto:info@zukunft-akademie.de">info@zukunft-akademie.de</a>
             </div>
              <div className="grid grid-flow-col gap-4 md:place-self-center md:justify-self-end w-full">
                 <a href="https://chat.whatsapp.com/FrP7zc2iuDa7EqR1ignynk?mode=wwt" target="_blank" title='WhatsApp' aria-label='WhatsApp'>
-                    <IconSvg icon='whatsapp' size="6"/>
+                    <IconSvg icon='whatsapp' size="24"/>
                 </a>
                 <a href="https://m.me/academy.azb" target="_blank" title='Facebook Messenger' aria-label='Facebook Messenger'>
-                    <IconSvg icon='facebook-bold' size="7"/>
+                    <IconSvg icon='facebook-bold' size="24"/>
                 </a>
                 <a href="https://t.me/+jPWba-XEAG9hNDdi" target="_blank" title='Telegram' aria-label='Telegram'>
-                    <IconSvg icon='telegram' size="6"/>
+                    <IconSvg icon='telegram' size="24"/>
                 </a>
             </div>
         </aside>
