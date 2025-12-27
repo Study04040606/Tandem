@@ -1,4 +1,5 @@
 import Header from "@/components/Header/Header";
+import Footer from "@/components/Footer/Footer";
 
 type LayoutProps = {
   children: React.ReactNode;
@@ -7,11 +8,9 @@ type LayoutProps = {
 function Layout ({ children }: LayoutProps)  { //children: React.ReactNode - тип переменной children, которая является props компонента
 return (
     <>
-       <Header />
-       <main className='m-8'>{children}</main>
-       <footer className='m-8'>
-            <p> &copy; 2026 Tandem</p>
-       </footer>
+      <Header />
+      <main className='flex-1 m-8'>{children}</main>
+      <Footer />
     </>
 );
 };

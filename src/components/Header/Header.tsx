@@ -4,34 +4,26 @@ import logo from '@/assets/Logo.svg';
 const Header = () => {
 return (
     <header>
-        <nav className="navbar bg-base-100 shadow-sm">
+        <nav className="navbar shadow-sm">
             <div className="navbar-start">
-                <Link className="btn btn-ghost px-0" to="/">
-                    <img src={logo} alt="Logo" className="inline-block" />                    
+                <Link className="" to="/">
+                    <img src={logo} alt="Zukunft Akademie Logo" className="inline-block" />                    
                 </Link>
             </div>
             <div className="navbar-end">
                 <div className="hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
                         <li>
-                            <a>
-                                <Link to="/">Home</Link>
-                            </a>
+                            <Link to="/">Home</Link>
                         </li>
                         <li>
-                            <a>
-                                <Link to="/programs">Programs</Link>
-                            </a>
+                            <Link to="/programs">Programs</Link>
                         </li>
                         <li>
-                            <a>
-                                <Link to="/participate">Participate</Link>
-                            </a>
+                            <Link to="/participate">Participate</Link>
                         </li>
                         <li>
-                            <a>
-                                DE
-                            </a>
+                            DE
                         </li>
                     </ul>
                 </div>
@@ -41,24 +33,16 @@ return (
                     </div>
                     <ul tabIndex={-1} className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
                         <li>
-                            <a>
-                                <Link to="/">Home</Link>
-                            </a>
+                            <Link to="/">Home</Link>
                         </li>
                         <li>
-                            <a>
-                                <Link to="/programs">Programs</Link>
-                            </a>
+                            <Link to="/programs">Programs</Link>
                         </li>
                         <li>
-                            <a>
-                                <Link to="/participate">Participate</Link>
-                            </a>
+                            <Link to="/participate">Participate</Link>
                         </li>
                         <li>
-                            <a>
-                                DE
-                            </a>
+                            DE
                         </li>
                     </ul>
                 </div>

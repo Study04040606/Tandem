@@ -1,6 +1,3 @@
-//import { useState } from 'react'
-//import reactLogo from './assets/react.svg'
-//import viteLogo from '/vite.svg'
 import { HashRouter, Routes, Route } from 'react-router-dom'; //поменять HashRouter на BrowserRouter при деплое на свой домен?
 
 import HomePage from '@/pages/HomePage/HomePage.tsx';

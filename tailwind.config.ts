@@ -6,7 +6,9 @@ const config: Config = {
     './src/**/*.{ts,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      
+    },
   }
 }
 
