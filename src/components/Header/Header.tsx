@@ -1,11 +1,14 @@
 import { Link } from 'react-router-dom';
+import logo from '@/assets/Logo.svg';
 
 const Header = () => {
 return (
     <header>
         <nav className="navbar bg-base-100 shadow-sm">
             <div className="navbar-start">
-                <Link className="btn btn-ghost text-xl" to="/">Logo</Link>
+                <Link className="btn btn-ghost px-0" to="/">
+                    <img src={logo} alt="Logo" className="inline-block" />                    
+                </Link>
             </div>
             <div className="navbar-end">
                 <div className="hidden lg:flex">

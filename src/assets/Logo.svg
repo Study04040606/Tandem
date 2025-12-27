@@ -1,0 +1,18 @@
+<svg width="250" height="80" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_1">
+   <!-- Content area: x=16..234, y=16..84 -->
+   <!-- Zukunft -->
+   <text id="svg_2" x="129" y="35.4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="600" fill="#1A7A1A">Zukunft</text>
+   <!-- Akademie -->
+   <g id="svg_3">
+    <!-- Pyramid-stylized A (25% larger than Akademie text) -->
+    <path id="svg_4" d="m12,71.4l30,-62l30,62l-60,0zm15,-12l15,-30l15,30l-30,0z" fill="#1A7A1A" fill-rule="evenodd"/>
+    <!-- kademie -->
+    <text id="svg_5" x="72" y="70.4" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="600" fill="#1A7A1A" dominant-baseline="alphabetic">kademie</text>
+   </g>
+  </g>
+ </g>
+
+</svg>
