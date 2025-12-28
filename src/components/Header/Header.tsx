@@ -1,7 +1,18 @@
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import logo from '@/assets/logo.svg';
 
+const lngs = {
+  de: { nativeName: 'DE' },
+  en: { nativeName: 'EN' },
+};  
+
 const Header = () => {
+
+    const {t, i18n } = useTranslation();
+
+    
+
 return (
     <header>
         <nav className="navbar shadow-sm">
@@ -14,7 +25,7 @@ return (
                 <div className="hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
                         <li>
-                            <Link to="/">Home</Link>
+                            <Link to="/">{t('home')}</Link>
                         </li>
                         <li>
                             <Link to="/programs">Programs</Link>
@@ -23,7 +34,11 @@ return (
                             <Link to="/participate">Participate</Link>
                         </li>
                         <li>
-                            DE
+                            {Object.keys(lngs).map((lng) => (
+                                <button type="submit" key={lng} onClick={()=> i18n.changeLanguage(lng)} disabled={i18n.resolvedLanguage === lng} className="btn btn-ghost" >
+                                    {lngs[lng as keyof typeof lngs].nativeName}
+                                </button>
+                            ))   }
                         </li>
                     </ul>
                 </div>

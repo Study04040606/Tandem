@@ -10,7 +10,7 @@ type SvgIcon = {
 
 const IconSvg = ({icon, size}: SvgIcon) => (
    <svg className={`mr-2 fill-neutral-700`} width={size} height={size} >
-       <use href={`sprite.svg#icon-${icon}`} />
+       <use href={`images/sprite.svg#icon-${icon}`} />
    </svg>
 );
 
