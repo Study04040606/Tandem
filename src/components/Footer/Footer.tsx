@@ -27,41 +27,51 @@ return (
             <p>
                 (nicht eingetragener Verein)
             </p>
-            <div className='flex items-center'>
-                <IconSvg icon='envelope' size="16"/>
-                <a href="mailto:info@zukunft-akademie.de">info@zukunft-akademie.de</a>
-            </div>
              <div className="grid grid-flow-col gap-4 md:place-self-center md:justify-self-end w-full">
-                <a href="https://chat.whatsapp.com/FrP7zc2iuDa7EqR1ignynk?mode=wwt" target="_blank" title='WhatsApp' aria-label='WhatsApp'>
+                <a className='p-3 transition duration-300 ease-in-out hover:scale-110' href="https://chat.whatsapp.com/FrP7zc2iuDa7EqR1ignynk?mode=wwt" target="_blank" title='WhatsApp' aria-label='WhatsApp'>
                     <IconSvg icon='whatsapp' size="24"/>
                 </a>
-                <a href="https://m.me/academy.azb" target="_blank" title='Facebook Messenger' aria-label='Facebook Messenger'>
-                    <IconSvg icon='facebook-bold' size="24"/>
+                <a className='p-3 transition duration-300 ease-in-out hover:scale-110' href="https://m.me/academy.azb" target="_blank" title='Facebook Messenger' aria-label='Facebook Messenger'>
+                    <IconSvg icon='facebook-bold' size="26"/>
                 </a>
-                <a href="https://t.me/+jPWba-XEAG9hNDdi" target="_blank" title='Telegram' aria-label='Telegram'>
+                <a className='p-3 transition duration-300 ease-in-out hover:scale-110' href="https://t.me/+jPWba-XEAG9hNDdi" target="_blank" title='Telegram' aria-label='Telegram'>
                     <IconSvg icon='telegram' size="24"/>
                 </a>
             </div>
         </aside>
+        <div>
+            <p className="footer-title">Adresse</p>
+            <p>Ettenhofener Str. 48A</p>
+            <p>82234 Weßling</p>
+            <p>Deutschland</p>
+            <div className='flex items-center'>
+                <IconSvg icon='envelope' size="16"/>
+                <a className='link link-hover' href="mailto:info@zukunft-akademie.de">info@zukunft-akademie.de</a>
+            </div>
+        </div>
         <nav>
-            <h6 className="footer-title">Services</h6>
-            <a className="link link-hover">Branding</a>
-            <a className="link link-hover">Design</a>
-            <a className="link link-hover">Marketing</a>
-            <a className="link link-hover">Advertisement</a>
+            <p className="footer-title">Seite</p>
+            <Link className="link link-hover" to="/">
+              Home                     
+            </Link>
+            <Link className="link link-hover" to="/programs">
+              Programme                     
+            </Link>
+            <Link className="link link-hover" to="/participate">
+              Mitmachen                     
+            </Link>
         </nav>
         <nav>
-            <h6 className="footer-title">Company</h6>
-            <a className="link link-hover">About us</a>
-            <a className="link link-hover">Contact</a>
-            <a className="link link-hover">Jobs</a>
-            <a className="link link-hover">Press kit</a>
-        </nav>
-        <nav>
-            <h6 className="footer-title">Legal</h6>
-            <a className="link link-hover">Terms of use</a>
-            <a className="link link-hover">Privacy policy</a>
-            <a className="link link-hover">Cookie policy</a>
+            <p className="footer-title">Rechtlich</p>
+            <Link className="link link-hover" to="/legal-notice"> {/* Impressum */}
+              Impressum                     
+            </Link>
+            <Link className="link link-hover" to="/data-protection"> {/* Datenschutz */}
+              Datenschutz                     
+            </Link>
+            <Link className="link link-hover" to="/cookie-policy">
+              Cookie-Richtung                    
+            </Link>
         </nav>
     </footer>
     );
