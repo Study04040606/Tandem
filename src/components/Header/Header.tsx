@@ -20,17 +20,17 @@ return (
                     <ul className="menu menu-horizontal flex items-center px-1">
                         <li>
                             <NavLink to="/" className={({ isActive }) => isActive ? "link" : "link link-hover"}>
-                                {t('home')}
+                                {t('header-home')}
                             </NavLink>
                         </li>
                         <li>
                             <NavLink to="/programs" className={({ isActive }) => isActive ? "link" : "link link-hover"}>
-                                Programs
+                                {t('header-programs')}
                             </NavLink>
                         </li>
                         <li>
                             <NavLink to="/participate" className={({ isActive }) => isActive ? "link" : "link link-hover"}>
-                                Participate
+                                {t('header-participate')}
                             </NavLink>
                         </li>
                         <li>
@@ -44,13 +44,19 @@ return (
                     </div>
                     <ul tabIndex={-1} className="menu menu-sm dropdown-content bg-neutral-100 rounded-box z-1 mt-3 w-30 p-2 shadow">
                         <li>
-                            <Link to="/">Home</Link>
+                            <Link to="/">
+                                {t('header-home')}
+                            </Link>
                         </li>
                         <li>
-                            <Link to="/programs">Programs</Link>
+                            <Link to="/programs">
+                                {t('header-programs')}
+                            </Link>
                         </li>
                         <li>
-                            <Link to="/participate">Participate</Link>
+                            <Link to="/participate">
+                                {t('header-participate')}
+                            </Link>
                         </li>
                         <li>
                             <LanguageSelect />

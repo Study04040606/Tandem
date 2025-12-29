@@ -1,4 +1,19 @@
 {  
-          "home": "English Привет, мир!",
-          "welcome": "English Это пример многоязычного приложения."
-        }
+  "header-home": "Home",
+  "header-programs": "Programs",
+  "header-participate": "Participate",
+  "header-select-language": "Select language",
+  "footer-unregistered-association": "unregistered association",
+  "footer-address": "address",
+  "footer-address-street": "Street",
+  "footer-address-city": "Wessling",
+  "footer-address-country": "Germany",
+  "footer-website": "website",
+  "footer-website-home": "Home",
+  "footer-website-programs": "Programs",
+  "footer-website-participate": "Participate",
+  "footer-legal": "Legal",
+  "footer-legal-legal-notice": "Legal notice",
+  "footer-legal-data-protection": "Data protection",
+  "footer-legal-cookie-policy": "Cookie policy"
+}
