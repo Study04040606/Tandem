@@ -1,17 +1,11 @@
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import LanguageSelect from '../Header/LanguageSelect';
 import logo from '@/assets/logo.svg';
-
-const lngs = {
-  de: { nativeName: 'DE' },
-  en: { nativeName: 'EN' },
-};  
 
 const Header = () => {
 
-    const {t, i18n } = useTranslation();
-
-    
+    const { t } = useTranslation();
 
 return (
     <header>
@@ -23,22 +17,24 @@ return (
             </div>
             <div className="navbar-end">
                 <div className="hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
+                    <ul className="menu menu-horizontal flex items-center px-1">
                         <li>
-                            <Link to="/">{t('home')}</Link>
+                            <NavLink to="/" className={({ isActive }) => isActive ? "link" : "link link-hover"}>
+                                {t('home')}
+                            </NavLink>
                         </li>
                         <li>
-                            <Link to="/programs">Programs</Link>
+                            <NavLink to="/programs" className={({ isActive }) => isActive ? "link" : "link link-hover"}>
+                                Programs
+                            </NavLink>
                         </li>
                         <li>
-                            <Link to="/participate">Participate</Link>
+                            <NavLink to="/participate" className={({ isActive }) => isActive ? "link" : "link link-hover"}>
+                                Participate
+                            </NavLink>
                         </li>
                         <li>
-                            {Object.keys(lngs).map((lng) => (
-                                <button type="submit" key={lng} onClick={()=> i18n.changeLanguage(lng)} disabled={i18n.resolvedLanguage === lng} className="btn btn-ghost" >
-                                    {lngs[lng as keyof typeof lngs].nativeName}
-                                </button>
-                            ))   }
+                           <LanguageSelect />                           
                         </li>
                     </ul>
                 </div>
@@ -57,7 +53,7 @@ return (
                             <Link to="/participate">Participate</Link>
                         </li>
                         <li>
-                            DE
+                            <LanguageSelect />
                         </li>
                     </ul>
                 </div>
