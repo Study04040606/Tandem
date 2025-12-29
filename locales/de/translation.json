@@ -1,4 +1,19 @@
 {  
-  "home": "Deutsch Привет, мир!",
-  "welcome": "Deutsch Это пример многоязычного приложения."
-        }
+  "header-home": "Home",
+  "header-programs": "Programme",
+  "header-participate": "Mitmachen",
+  "header-select-language": "Sprache auswählen",
+  "footer-unregistered-association": "nicht eingetragener Verein",
+  "footer-address": "Adresse",
+  "footer-address-street": "Str.",
+  "footer-address-city": "Weßling",
+  "footer-address-country": "Deutschland",
+  "footer-website": "Seite",
+  "footer-website-home": "Home",
+  "footer-website-programs": "Programme",
+  "footer-website-participate": "Mitmachen",
+  "footer-legal": "Rechtliches",
+  "footer-legal-legal-notice": "Impressum",
+  "footer-legal-data-protection": "Datenschutzerklärung",
+  "footer-legal-cookie-policy": "Cookie-Richtung"
+}
