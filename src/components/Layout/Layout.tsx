@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
 
@@ -6,6 +7,11 @@ type LayoutProps = {
 };
 
 function Layout ({ children }: LayoutProps)  { //children: React.ReactNode - тип переменной children, которая является props компонента
+
+  useEffect(() => {
+    document.documentElement.setAttribute("data-theme", "light");
+  }, []);  
+
 return (
     <>
       <Header />

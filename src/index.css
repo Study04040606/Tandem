@@ -2,8 +2,19 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+/* tailwindcss  */
 @theme {
   --font-inter: "Inter", sans-serif; 
 }
+
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+
+  --color-primary: #1a7a1a; 
+  --color-primary-content: #f5f5f5; 
+       
+}
+
 /* TODO добавить стиль для хедер, футер на фокус клавой */
 /* TODO добавить шрифт для заголовков */
