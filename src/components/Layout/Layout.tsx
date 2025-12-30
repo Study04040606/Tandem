@@ -6,7 +6,7 @@ type LayoutProps = {
   children: React.ReactNode;
 };
 
-function Layout ({ children }: LayoutProps)  { //children: React.ReactNode - тип переменной children, которая является props компонента
+export default function Layout ({ children }: LayoutProps)  { //children: React.ReactNode - тип переменной children, которая является props компонента
 
   useEffect(() => {
     document.documentElement.setAttribute("data-theme", "light");
@@ -15,10 +15,8 @@ function Layout ({ children }: LayoutProps)  { //children: React.ReactNode - т�
 return (
     <>
       <Header />
-      <main className='flex-1 m-8'>{children}</main>
+      <main className='flex-1'>{children}</main>
       <Footer />
     </>
 );
 };
-
-export default Layout;
