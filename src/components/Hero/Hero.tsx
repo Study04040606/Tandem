@@ -4,7 +4,7 @@ export default function Hero () {
      const { t } = useTranslation();  
 
     return (
-        <section className='flex flex-col justify-center items-center relative bg-[url("images/hero-background.webp")] bg-cover bg-center w-screen aspect-[16/6] bg-no-repeat '>
+        <section className='flex flex-col justify-center items-center relative bg-[url("/images/hero-background.webp")] bg-cover bg-center w-screen aspect-16/6 bg-no-repeat '>
             <div className="absolute inset-0 bg-black/50"></div>
             <div className="relative z-10 text-neutral-100 text-center">
                 <p className='text-lg lg:text-3xl py-2'>
