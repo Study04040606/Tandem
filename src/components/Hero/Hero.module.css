@@ -1,0 +1,34 @@
+.hero {
+  background-image: image-set(
+    url("/images/Hero/hero-mobile.webp") type("image/webp"),
+    url("/images/Hero/hero-mobile.jpg") 
+  );
+}
+
+@media (min-width: 768px) {
+  .hero {
+    background-image: image-set(
+      url("/images/Hero/hero-tablet.webp") type("image/webp"),
+      url("/images/Hero/hero-tablet.jpg") 
+    );
+  }
+}
+
+@media (min-width: 1440px) {
+  .hero {
+    background-image: image-set(
+      url("/images/Hero/hero-desktop.webp") type("image/webp"),
+      url("/images/Hero/hero-desktop.jpg") 
+    );
+  }
+}
+
+/* Для дисплеев с высокой плотностью пикселей */
+/* @media (min-width: 1440px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: image-set(
+      url("/images/Hero/hero-4000.webp") type("image/webp"),
+      url("/images/Hero/hero-4000.jpg") 
+    );
+  }
+} */

@@ -15,7 +15,7 @@ export default function Layout ({ children }: LayoutProps)  { //children: React.
 return (
     <>
       <Header />
-      <main className='flex-1'>{children}</main>
+      <main className='flex flex-col flex-1'>{children}</main>
       <Footer />
     </>
 );

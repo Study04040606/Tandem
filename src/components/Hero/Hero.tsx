@@ -1,10 +1,11 @@
 import { useTranslation } from 'react-i18next';
+import styles from './Hero.module.css';
 
 export default function Hero () {
      const { t } = useTranslation();  
 
     return (
-        <section className='flex flex-col justify-center items-center relative bg-[url("/images/hero-background.webp")] bg-cover bg-center w-screen aspect-16/6 bg-no-repeat '>
+        <section className={`${styles.hero} flex flex-col justify-center items-center relative w-full bg-cover bg-center aspect-16/6 bg-no-repeat`}>
             <div className="absolute inset-0 bg-black/50"></div>
             <div className="relative text-neutral-100 text-center">
                 <p className='text-lg lg:text-3xl py-2'>
