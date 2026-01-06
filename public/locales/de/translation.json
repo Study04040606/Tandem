@@ -3,28 +3,73 @@
   "header-programs": "Programme",
   "header-participate": "Mitmachen",
   "header-select-language": "Sprache auswählen",
+  
   "hero-first-text": "Wir schaffen Erfolg gemeinsam",
   "hero-second-text": "Kostenlose Programme. Für Kinder, Jugendliche und Erwachsene.",
   "hero-title": "Akademie\n«Zukunft & Bildung»",
+  
   "about-us-title": "Wer sind wir",
   "about-us-paragraph-1": "Die Akademie «Bildung der Zukunft» ist eine internationale gemeinnützige Organisation mit Hauptsitz in Deutschland.   ",
   "about-us-paragraph-2": "Wir sind ein Raum, eine Gemeinschaft, ein soziales Netzwerk, eine Gemeinschaft fortschrittlicher und aktiver Menschen, die durch eine gemeinsame Idee vereint sind.",
   "about-us-quote": "\"Jedem die Möglichkeit zu geben, kostenlos die gewünschte Bildung, Kenntnisse und Fähigkeiten zu erwerben, die persönlichen Erfolg, Entwicklung und Harmonie in der modernen technokratischen Welt gewährleisten – heute, morgen und in der Zukunft\".",
+  
   "for-whom-title": "Für wen ist das",
   "for-whom-paragraph-1": "Die Programme der Akademie stehen jedem offen, der sich weiterentwickeln möchte — für Erwachsene, Jugendliche, junge Menschen und Kinder. In unserer Community sind Sie gleichzeitig Mentor, Meisterlehrer und Schüler – Sie lernen selbst und lehren andere, Sie erhalten und teilen Wissen und Erfahrung.",
   "for-whom-paragraph-2": "Bauen Sie eine Karriere auf, entwickeln Sie Ihr eigenes Unternehmen oder lernen Sie einfach interessante Menschen kennen und finden Sie Gleichgesinnte für berufliches Wachstum.",  
   "for-whom-image-alt": "Menschen, die zusammenarbeiten und Ideen austauschen",
+  
   "what-you-get-title": "Was Sie bekommen",
   "what-you-get-paragraph-1": "Verspüren Sie das Bedürfnis, zu lernen, sich weiterzuentwickeln und zu verbessern? Haben Sie den Wunsch, andere zu unterrichten? Dann sind Sie hier genau richtig!",
   "what-you-get-paragraph-2": "Machen Sie mit und wählen Sie, was Ihnen gefällt: kurze Berufskurse, Universitätsprogramme, Meisterkurse, Schulungen, Workshops, Seminare, Vorlesungen, Bootcamps oder einfach Treffen im Freundeskreis bei einer Tasse Kaffee, um den neuesten Film oder eine neue philosophische Idee zu besprechen.",
   "what-you-get-paragraph-3": "Seien Sie dabei, wenn Sie zuverlässige Geschäftspartner finden, ein Startup gründen oder einfach neue Leute kennenlernen möchten – vielleicht, um Fußball zu spielen oder gemeinsam ein Bierfestival zu besuchen.",
   "what-you-get-paragraph-4": "Seien Sie dabei, wenn Sie gegenseitige Unterstützung, Hilfe und gute Ratschläge in schwierigen Lebenssituationen suchen – oder einfach Freude teilen und eine spontane Reise organisieren möchten: den Grand Canyon in Arizona besuchen, sich vor dem Eiffelturm für neue Instagram-Fotos ablichten lassen oder durch die Modeboutiquen Roms schlendern.",
   "what-you-get-paragraph-5": "Seien Sie dabei – bereichern Sie uns mit Ihren Ideen, und entwickeln wir uns gemeinsam weiter!",
+  
   "idea-title": "Wir verwirklichen gemeinsam eine große Idee!",
   "idea-paragraph-1": "Die Akademie «Zukunft & Bildung» ist ein Raum für diejenigen, die verstehen: Wir sind in eine neue technokratische Ära eingetreten und brauchen daher nicht nur innovative Lehrmethoden, sondern auch eine Veränderung der Denkweise.",
   "idea-paragraph-2": "In der modernen Welt, in der künstliche Intelligenz unser Leben grundlegend verändert, muss der Mensch ständig lernen – einen Schritt voraus sein, sich gemeinsam mit den Technologien weiterentwickeln und verbessern. Gegenseitige Unterstützung und Hilfe im Lernprozess sind der Weg zum gemeinsamen und individuellen Erfolg.",
   "idea-paragraph-3": "Wir gestalten die Bildung der Zukunft. Seien Sie dabei – als Teilnehmer, Schüler, Lehrer oder Mentor..",
-  "button-participate": "Mitmachen",
+  
+  "programs-title": "Unsere Richtungen und Bildungsprogramme",
+  "programs-paragraph-1": "Die Akademie „Bildung der Zukunft“ ist eine junge und offene Bildungsplattform, die vor kurzem ihre Tätigkeit aufgenommen hat, aber bereits eine Reihe interessanter Projekte und Programme vereint. Die meisten von ihnen haben drei Altersrichtungen – für Kinder, Jugendliche und Erwachsene und sind völlig kostenlos. Zu den beliebtesten Programmen gehören",
+  
+  "programs-foreign-languages-title": "Fremdsprachen - Sprechenklub",
+  "programs-foreign-languages-paragraph-1": "Unsere Gesprächsrunden sind ein Online- und Offline-Raum für Kommunikation, Lernen und kulturellen Austausch in den beliebtesten Sprachen der Welt: Deutsch, Englisch, Französisch, Spanisch, Chinesisch, Arabisch, Russisch und Ukrainisch.",
+  "programs-foreign-languages-paragraph-2": "Dies ist ein freundlicher Raum, in dem jeder seine Sprachkenntnisse verbessern kann – von der lebendigen Kommunikation bis zur sicheren Beherrschung von Grammatik und Schrift. Hier können Sie eine Sprache von Grund auf lernen oder Ihre vorhandenen Kenntnisse bis zum professionellen Niveau verbessern. Jeder Teilnehmer wählt ein bequemes Format und Lerntempo – vom Anfänger- bis zum Fortgeschrittenenkurs – und hat außerdem die Möglichkeit, sich auf internationale Prüfungen der Niveaus B1, B2 und C1 vorzubereiten, um die Sprache sicher zu beherrschen im Studium, auf Reisen und bei der Arbeit",
+  "programs-foreign-languages-image-alt": "Buchstaben und Zeichen",
+  
+  "programs-it-title": "IT- Programmier- und Designschule",
+  "programs-it-paragraph-1": "Dies ist ein moderner Online-Raum, in dem Sie die wichtigsten Fähigkeiten des digitalen Zeitalters erlernen. Das Programm umfasst die beliebtesten Bereiche: Programmierung, Webentwicklung, Design, künstliche Intelligenz, Datenanalyse und Cybersicherheit.",
+  "programs-it-paragraph-2": "Sie lernen, mit den gängigsten Sprachen und Technologien zu arbeiten – Python, Java, JavaScript, HTML/CSS, SQL, C++ – und können eigene Projekte, Websites und Anwendungen von Grund auf erstellen.",
+  "programs-it-paragraph-3": "Separate Module sind KI-Technologien, UX/UI-Design, Automatisierung und Robotisierung von Prozessen sowie der Arbeit mit modernen digitalen Tools und Frameworks wie React, TensorFlow, Node.js gewidmet. Das Lernen ist praktisch und zugänglich aufgebaut – um jedem zu helfen, seine Richtung zu finden, sein technisches Denken zu entwickeln und selbstbewusst einen Schritt in die Welt der modernen IT-Berufe zu machen.",
+  "programs-it-image-alt": "Laptop mit Code auf dem Bildschirm",
+
+  "programs-business-education-title": "Business-Ausbildung",
+  "programs-business-education-paragraph-1": "Marketing, Analytik, Produkt- und Projektmanagement, Finanzen, Management, Führung, Zeitmanagement.",
+  "programs-business-education-image-alt": "Geschäftsleute bei der Arbeit auf dem Bildschirm",
+
+  "programs-social-education-title": "Soziale Bildung",
+  "programs-social-education-paragraph-1": "Psychologie, Beziehungen, persönliche Entwicklung, Politik, Recht, Philosophie.",
+  "programs-social-education-image-alt": "Viele Leute haben ihre Handflächen übereinander gelegt auf dem Bildschirm",
+  
+  "programs-academic-education-title": "Akademische Bildung",
+  "programs-academic-education-paragraph-1": "Mathematik, Physik, Chemie, Biologie, Vorbereitung auf Prüfungen und Tests.",
+  "programs-academic-education-image-alt": "Lesesaal der Bibliothek auf dem Bildschirm",
+
+  "programs-science-creativity-title": "Wissenschaft und Kreativität",
+  "programs-science-creativity-paragraph-1": "von Robotik bis Raketenbau, von Stickerei bis Modedesign.",
+  "programs-science-creativity-image-alt": "Astronaut auf einem Quad auf dem Mond auf dem Bildschirm",
+
+  "program-1-card-title": "IT-Technologien",
+  "program-1-card-description": "Programmierung, Webentwicklung, Design, künstliche Intelligenz, Cybersicherheit.",
+  "program-1-image-alt": "Laptop mit Code auf dem Bildschirm",
+  
+  
+  "sucsess-title": "Gemeinsam schaffen wir Erfolg",
+  "sucsess-paragraph-1": "<0>Die Akademie «Bildung der Zukunft» ist ein Raum für gemeinsamen und persönlichen Erfolg.</0><1>Bildung. Karriere. Arbeit. Geschäft.</1><2>Harmonie. Gesundheit. Familie.</2><3>Neue Bekanntschaften. Sport. Kreativität.</3>",
+  "sucsess-paragraph-2": "Gemeinsam erwerben wir neue Kenntnisse und Fähigkeiten, entwickeln uns weiter, reisen, treten in Universitäten ein, erziehen Kinder und erreichen einen Zustand des seelischen Gleichgewichts und der Harmonie mit der Umwelt. Gemeinsam nehmen wir ab, hören mit dem Rauchen auf und werden schädliche Gewohnheiten los, treiben Sport, gehen ins Kino und Theater. Gemeinsam gründen wir ein Unternehmen, starten Startups, finden einen neuen Job, verbessern uns selbst, bauen eine Karriere auf und wachsen beruflich.",
+  "sucsess-paragraph-3": "Gemeinsam lernen wir, lehren und erzielen Erfolg – heute, morgen und in der Zukunft.",
+  
   "footer-unregistered-association": "nicht eingetragener Verein",
   "footer-address": "Adresse",
   "footer-address-street": "Str.",
@@ -37,5 +82,7 @@
   "footer-legal": "Rechtliches",
   "footer-legal-legal-notice": "Impressum",
   "footer-legal-data-protection": "Datenschutzerklärung",
-  "footer-legal-cookie-policy": "Cookie-Richtung"
+  "footer-legal-cookie-policy": "Cookie-Richtung",
+
+  "button-participate": "Mitmachen"
 }

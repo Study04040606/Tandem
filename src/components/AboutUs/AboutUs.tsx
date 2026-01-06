@@ -5,7 +5,7 @@ export default function AboutUs() {
   const { t } = useTranslation();
 
   return (
-    <section>
+    <section className='bg-neutral-200'>
       <Container>
         <div className="flex flex-col md:flex-row gap-4 lg:gap-8 lg:m-8">
           <div className="flex-1 p-4 lg:p-8">

@@ -3,29 +3,68 @@
   "header-programs": "Programs",
   "header-participate": "Participate",
   "header-select-language": "Select language",
+  
   "hero-first-text": "We create success together",
   "hero-second-text": "Free programs. For children, teenagers, and adults.",
   "hero-title": "Academy\n“Future & Education”",
+  
   "about-us-title": "Who we are",
   "about-us-paragraph-1": "The Academy “Education of the Future” is an international non-profit organization headquartered in Germany.",
   "about-us-paragraph-2": "We are a space, a community, a social network, a community of progressive and active people united by a common idea.",
   "about-us-quote": "\"To give everyone the opportunity to acquire the desired education, knowledge, and skills for free, ensuring personal success, development, and harmony in the modern technocratic world – today, tomorrow, and in the future.\"",
+  
   "for-whom-title": "Who is this for",
   "for-whom-paragraph-1": "The Academy's programs are open to anyone who wants to develop themselves further — adults, teenagers, young people, and children. In our community, you are simultaneously a mentor, master teacher, and student — you learn yourself and teach others, you receive and share knowledge and experience.",
   "for-whom-paragraph-2": "Build your career, grow your business, or simply connect with amazing people and find like-minded friends for your professional journey.",
   "for-whom-image-alt": "People who work together and exchange ideas",
+  
   "what-you-get-title": "What you get",
   "what-you-get-paragraph-1": "Do you feel the need to learn, develop, and improve? Do you want to teach others? Then you've come to the right place!",
   "what-you-get-paragraph-2": "Join in and choose what you like: short vocational courses, university programs, master classes, training courses, workshops, seminars, lectures, boot camps, or simply meeting up with friends over a cup of coffee to discuss the latest film or a new philosophical idea.",
   "what-you-get-paragraph-3": "Be there if you want to find reliable business partners, start a startup, or simply meet new people—perhaps to play soccer or visit a beer festival together.",
   "what-you-get-paragraph-4": "Join us if you are looking for mutual support, assistance, and sound advice in difficult life situations—or simply want to share joy and organize a spontaneous trip: visit the Grand Canyon in Arizona, have your picture taken in front of the Eiffel Tower for new Instagram photos, or stroll through Rome's fashion boutiques.",
   "what-you-get-paragraph-5": "Be part of it – enrich us with your ideas, and let's develop together!",
+  
   "idea-title": "Let's bring a great idea to life together!",
   "idea-paragraph-1": "The Academy for Future & Education is a space for those who understand that we have entered a new technocratic era and therefore need not only innovative teaching methods, but also a change in mindset.",
   "idea-paragraph-2": "In today's world, where artificial intelligence is fundamentally changing our lives, people must constantly learn—stay one step ahead, evolve and improve alongside technology. Mutual support and assistance in the learning process are the keys to collective and individual success.",
   "idea-paragraph-3": "We are shaping the future of education. Be part of it—as a participant, student, teacher, or mentor.",
   
-  "button-participate": "Participate",
+  "programs-title": "Our directions and educational programs",
+  "programs-paragraph-1": "The Academy of Future Education is a young and open educational platform that has recently begun operating but already offers a range of interesting projects and programs. Most of them are aimed at three age groups—children, teenagers, and adults—and are completely free of charge. Among the most popular programs are",
+  
+  "programs-foreign-languages-title": "Foreign languages - Speaking club",
+  "programs-foreign-languages-paragraph-1": "Our discussion groups are an online and offline space for communication, learning, and cultural exchange in the world's most popular languages: German, English, French, Spanish, Chinese, Arabic, Russian, and Ukrainian.",
+  "programs-foreign-languages-paragraph-2": "This is a welcoming space where everyone can improve their language skills—from lively communication to confident mastery of grammar and writing. Here, you can learn a language from scratch or improve your existing knowledge to a professional level. Each participant chooses a convenient format and learning pace—from beginner to advanced courses—and also has the opportunity to prepare for international exams at levels B1, B2, and C1 in order to master the language confidently in their studies, travels, and work. Translated with DeepL.com (free version)",
+  "programs-foreign-languages-image-alt": "Letters and characters",
+  
+  "programs-it-title": "IT programming and design school",
+  "programs-it-paragraph-1": "This is a modern online space where you can learn the most important skills of the digital age. The program covers the most popular areas: programming, web development, design, artificial intelligence, data analysis, and cybersecurity.",
+  "programs-it-paragraph-2": "You will learn to work with the most common languages and technologies—Python, Java, JavaScript, HTML/CSS, SQL, C++—and will be able to create your own projects, websites, and applications from scratch.",
+  "programs-it-paragraph-3": "Separate modules are dedicated to AI technologies, UX/UI design, automation and robotization of processes, and working with modern digital tools and frameworks such as React, TensorFlow, and Node.js. The learning process is practical and accessible, designed to help everyone find their direction, develop their technical thinking, and confidently take a step into the world of modern IT professions.",
+  "programs-it-image-alt": "Laptop with code on the screen", 
+
+  "programs-business-education-title": "Business education",
+  "programs-business-education-paragraph-1": "Marketing, analytics, product and project management, finance, management, leadership, time management.",
+  "programs-business-education-image-alt": "Business people working on the screen",
+
+  "programs-social-education-title": "Social education",
+  "programs-social-education-paragraph-1": "Psychology, relationships, personal development, politics, law, philosophy.",
+  "programs-social-education-image-alt": "Many people have placed their palms on top of each other on the screen.",
+  
+  "programs-academic-education-title": "Academic education",
+  "programs-academic-education-paragraph-1": "Mathematics, physics, chemistry, biology, preparation for exams and tests.",
+  "programs-academic-education-image-alt": "Library reading room on screen",
+
+  "programs-science-creativity-title": "Science and creativity",
+  "programs-science-creativity-paragraph-1": "From robotics to rocket science, from embroidery to fashion design.",
+  "programs-science-creativity-image-alt": "Astronaut on a quad bike on the moon on the screen",
+
+  "sucsess-title": "Together we create success",
+  "sucsess-paragraph-1": "<0>The Academy “Education of the Future” is a space for shared and personal success.</0><1>Education. Career. Work. Business.</1><2>Harmony. Health. Family.</2><3>New acquaintances. Sports. Creativity.</3>",
+  "sucsess-paragraph-2": "Together, we acquire new knowledge and skills, develop ourselves further, travel, enter universities, raise children, and achieve a state of mental balance and harmony with the environment. Together, we lose weight, quit smoking, and get rid of harmful habits, play sports, go to the movies and the theater. Together, we start businesses, launch startups, find new jobs, improve ourselves, build careers, and grow professionally.",
+  "sucsess-paragraph-3": "Together we learn, teach, and achieve success—today, tomorrow, and in the future.",
+  
   "footer-unregistered-association": "unregistered association",
   "footer-address": "address",
   "footer-address-street": "Street",
@@ -38,5 +77,7 @@
   "footer-legal": "Legal",
   "footer-legal-legal-notice": "Legal notice",
   "footer-legal-data-protection": "Data protection",
-  "footer-legal-cookie-policy": "Cookie policy"
+  "footer-legal-cookie-policy": "Cookie policy",
+
+  "button-participate": "Participate"
 }
