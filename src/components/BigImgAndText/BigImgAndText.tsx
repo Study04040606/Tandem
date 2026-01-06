@@ -15,7 +15,7 @@ type ResponsivePictureProps = {
 
 type BigImgAndTextProps = {
     title: string;
-    text: Array<string>;
+    text: Array<React.ReactNode>;
     picture: ResponsivePictureProps;
 }
 
