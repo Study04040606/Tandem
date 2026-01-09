@@ -20,6 +20,7 @@ type SubtitleProps = {
 };
 
 type HalfImgAndTextProps = {
+  id?: string;
   title: string;
   lead?: string;
   text: Array<string>;
@@ -30,6 +31,7 @@ type HalfImgAndTextProps = {
 };
 
 export default function HalfImgAndText({
+  id,
   title,
   lead,
   text,
@@ -39,9 +41,9 @@ export default function HalfImgAndText({
   isButtonVisible = false,
 }: HalfImgAndTextProps) {
   return (
-    <section>
+    <section  id={id}>
       <Container>
-        <div className="py-4 lg:py-8 lg:px-8 lg:mx-8">
+        <div className="p-4 lg:py-8 lg:px-8 lg:mx-8">
           <div
             className={`flex flex-col ${isReverse ? 'md:flex-row-reverse' : 'md:flex-row'} items-center gap-4 lg:gap-8 `}
           >

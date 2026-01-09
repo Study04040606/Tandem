@@ -16,6 +16,7 @@ const ProgramsPage = () => {
         </div>
       </Container>
       <BigImgAndText
+        id="foreign-languages"
         title={t('programs-foreign-languages-title')}
         lead={t('programs-foreign-languages-lead')}
         text={[
@@ -71,6 +72,7 @@ const ProgramsPage = () => {
       />
 
       <HalfImgAndText
+        id="it"
         isReverse={true}
         title={t('programs-it-title')}
         lead={t('programs-it-lead')}
@@ -123,6 +125,7 @@ const ProgramsPage = () => {
       />
 
       <HalfImgAndText
+        id="business-education"
         isReverse={false}
         title={t('programs-business-education-title')}
         lead={t('programs-business-education-lead')}
@@ -165,6 +168,7 @@ const ProgramsPage = () => {
       />
 
       <HalfImgAndText
+        id="social-education"
         isReverse={true}
         title={t('programs-social-education-title')}
         lead={t('programs-social-education-lead')}
@@ -207,6 +211,7 @@ const ProgramsPage = () => {
         }}
       />
       <HalfImgAndText
+      id="academic-education"
         isReverse={false}
         title={t('programs-academic-education-title')}
         lead={t('programs-academic-education-lead')}
@@ -248,6 +253,7 @@ const ProgramsPage = () => {
         }}
       />
       <HalfImgAndText
+        id="science-creativity"
         isReverse={true}
         title={t('programs-science-creativity-title')}
         lead={t('programs-science-creativity-lead')}

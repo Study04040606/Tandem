@@ -20,6 +20,7 @@ type SubtitleProps = {
 }
 
 type BigImgAndTextProps = {
+    id?: string;
     title: string;
     lead?: string;
     text: Array<React.ReactNode>;
@@ -28,9 +29,9 @@ type BigImgAndTextProps = {
     isSubtitle: boolean;
 }
 
-export default function BigImgAndText ({title, lead, text, picture, subtitles, isSubtitle=false}: BigImgAndTextProps) {
+export default function BigImgAndText ({id, title, lead, text, picture, subtitles, isSubtitle=false}: BigImgAndTextProps) {
     return (
-        <section>
+        <section id={id}>
             <Container>
                 <div className="flex flex-col p-4 lg:p-8 lg:m-8">
                     <div className="w-full max-h-[220px] lg:max-h-[400px] overflow-hidden rounded-3xl">

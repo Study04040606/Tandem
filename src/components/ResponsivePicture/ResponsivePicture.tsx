@@ -21,7 +21,7 @@ export default function ResponsivePicture ({sources, imgSrc, imgAlt, className}:
                 />
                 ))}
 
-            <img src={imgSrc} alt={imgAlt} className={className ?? "w-full h-full object-cover object-center rounded-3xl mb-8"} loading="lazy" decoding="async" />
+            <img src={imgSrc} alt={imgAlt} className={className ?? "w-full h-full object-cover object-center rounded-2xl mb-8"} loading="lazy" decoding="async" />
         </picture>
     )
 }
