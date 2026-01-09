@@ -1,6 +1,7 @@
 import Container from "@/components/Container/Container";
 import Button from "@/components/Button/Button";
 import ResponsivePicture from "@/components/ResponsivePicture/ResponsivePicture";
+import Subtitle from "@/components/Subtitle/Subtitle";
 
 type ResponsivePictureProps = {
     sources: Array<{
@@ -13,13 +14,21 @@ type ResponsivePictureProps = {
     className?: string;
 }
 
-type BigImgAndTextProps = {
-    title: string;
-    text: Array<React.ReactNode>;
-    picture: ResponsivePictureProps;
+type SubtitleProps = {
+    subtitleTitle: string;
+    subtitleText: Array<string>;
 }
 
-export default function BigImgAndText ({title, text, picture}: BigImgAndTextProps) {
+type BigImgAndTextProps = {
+    title: string;
+    lead?: string;
+    text: Array<React.ReactNode>;
+    picture: ResponsivePictureProps;
+    subtitles?: SubtitleProps[];
+    isSubtitle: boolean;
+}
+
+export default function BigImgAndText ({title, lead, text, picture, subtitles, isSubtitle=false}: BigImgAndTextProps) {
     return (
         <section>
             <Container>
@@ -34,11 +43,17 @@ export default function BigImgAndText ({title, text, picture}: BigImgAndTextProp
                     <h2 className="text-2xl font-bold mt-8 mb-4">
                         {title}
                     </h2>
+                    <p className='text-lg italic mb-4'>
+                        {lead}
+                    </p>
+
                     {text.map((paragraph, index) => (
                         <p key={index} className="mb-4">
                             {paragraph}
                         </p>
                     ))}
+
+                    { isSubtitle && subtitles && <Subtitle subtitles={subtitles} />}
 
                     <Button />
                 </div>
