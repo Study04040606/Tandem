@@ -53,8 +53,13 @@ export default function BigImgAndText ({title, lead, text, picture, subtitles, i
                         </p>
                     ))}
 
-                    { isSubtitle && subtitles && <Subtitle subtitles={subtitles} />}
-
+                    { isSubtitle && subtitles && 
+                        (
+                            <div className="-mb-4">
+                                <Subtitle subtitles={subtitles} />
+                            </div>
+                        )
+                    }
                     <Button />
                 </div>
             </Container>

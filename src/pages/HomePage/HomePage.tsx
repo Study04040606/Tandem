@@ -26,7 +26,13 @@ const HomePage = () => {
     <Layout>
       <Hero />
       <AboutUs />
-      <HalfImgAndText isButtonVisible={true} isReverse={false} title={t('for-whom-title')} text={[t('for-whom-paragraph-1'), t('for-whom-paragraph-2')]} picture={{
+      <HalfImgAndText
+        isButtonVisible={true}
+        isReverse={false}
+        title={t('for-whom-title')}
+        text={[t('for-whom-paragraph-1'), t('for-whom-paragraph-2')]}
+        subtitles={[]}
+        picture={{
           sources: [
             {
               media: '(min-width: 1440px)',
@@ -47,11 +53,12 @@ const HomePage = () => {
               media: '(min-width: 360px)',
               src: './images/ForWhom/ForWhom-tablet-mobile.jpg',
               type: 'image/jpeg',
-            }
+            },
           ],
           imgSrc: './images/ForWhom/ForWhom-desktop.jpg',
           imgAlt: t('for-whom-image-alt'),
-        }}/>
+        }}
+      />
       <OnlyText
         title={t('what-you-get-title')}
         text={[
@@ -100,11 +107,12 @@ const HomePage = () => {
               media: '(min-width: 360px)',
               src: './images/Sucsess/sucsess-mobile.jpg',
               type: 'image/jpeg',
-            }
+            },
           ],
           imgSrc: './images/Sucsess/sucsess-desktop.jpg',
           imgAlt: t('programs-foreign-languages-image-alt'),
         }}
+        isSubtitle={false}
       />
     </Layout>
   );
