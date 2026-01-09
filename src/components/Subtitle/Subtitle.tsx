@@ -10,7 +10,7 @@ export default function Subtitle({ subtitles }: SubtitlesProps) {
     <>
       {subtitles.map(({ subtitleTitle, subtitleText }, index) => (
         <div className="pb-4 " key={index}>
-          <h3 className="text-xl font-bold mb-4">
+          <h3 className="text-lg font-bold mb-4">
             {subtitleTitle}
           </h3>
           {subtitleText.map((paragraph, index) => (

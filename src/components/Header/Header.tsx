@@ -8,7 +8,7 @@ const Header = () => {
     const { t } = useTranslation();
 
 return (
-    <header>
+    <header className='sticky top-0 z-50 bg-neutral-100 shadow'>
         <nav className="navbar shadow-sm">
             <div className="navbar-start">
                 <Link className="" to="/">

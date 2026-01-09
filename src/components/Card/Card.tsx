@@ -16,7 +16,7 @@ export default function Card ({imageSrc, imageAlt, title, description, link}: Ca
                 <img className='w-full h-full rounded-t-lg object-cover object-center' src={imageSrc} alt={imageAlt} />
             </div>
             <div className='p-4'>
-                 <h3 className='text-xl font-bold mb-4'>{title}</h3>
+                 <h3 className='text-lg font-bold mb-4'>{title}</h3>
                     <p className='mb-4'>{description}</p>
                     {link && (
                         <HashLink smooth className="underline underline-offset-8 decoration-neutral-600 hover:underline-offset-2" to={link}>
