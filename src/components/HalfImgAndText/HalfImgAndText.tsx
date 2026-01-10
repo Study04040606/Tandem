@@ -41,13 +41,13 @@ export default function HalfImgAndText({
   isButtonVisible = false,
 }: HalfImgAndTextProps) {
   return (
-    <section  id={id}>
+    <section  id={id} className='scroll-mt-20'>
       <Container>
         <div className="p-4 lg:py-8 lg:px-8 lg:mx-8">
           <div
             className={`flex flex-col ${isReverse ? 'md:flex-row-reverse' : 'md:flex-row'} items-center gap-4 lg:gap-8 `}
           >
-            <div className="flex-1 w-full max-h-[220px] lg:max-h-[400px] overflow-hidden rounded-3xl mb-4">
+            <div className="flex-1 w-full max-h-[220px] lg:max-h-[400px] overflow-hidden rounded-2xl mb-4">
               <ResponsivePicture
                 sources={picture.sources}
                 imgSrc={picture.imgSrc}

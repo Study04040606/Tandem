@@ -9,7 +9,7 @@ const Footer = () => {
     const { t } = useTranslation();
 
 return (
-    <footer className="footer sm:footer-horizontal bg-neutral-200 text-neutral-700 p-10 relative bottom-0">
+    <footer className="footer sm:footer-horizontal bg-neutral-200 text-neutral-900 p-10 relative bottom-0">
         <aside>
             <Link className="" to="/">
                 <img src={logo} alt="Zukunft Akademie Logo" className="inline-block" />                    

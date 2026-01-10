@@ -87,10 +87,10 @@
   "programs-science-creativity-subtitle-1-paragraph-1": "Die Programme unterstützen den Erwerb grundlegender Kenntnisse moderner Wissenschaften, fördern Logik, räumliches Denken und projektorientiertes Arbeiten — sowohl im Hinblick auf berufliche und wissenschaftliche Laufbahnen als auch aus persönlichem Interesse. Die Teilnehmenden können sich an technischen und forschungsorientierten Initiativen beteiligen oder an kreativen Aktivitäten, die keinen Wettbewerbscharakter haben, sondern Freude am Prozess vermitteln.",
   "programs-science-creativity-subtitle-1-paragraph-2": "Besondere Aufmerksamkeit gilt dem entschleunigten, konzentrierten Lernen — der Möglichkeit, innezuhalten, innere Balance wiederzufinden und sich Tätigkeiten „für die Seele“ zu widmen. Dieses Format hilft, dem hohen Tempo des modernen Lebens bewusst zu begegnen und Achtsamkeit, Geduld sowie innere Harmonie durch Wissenschaft und Kreativität zu entwickeln.",
 
-  "sucsess-title": "Gemeinsam schaffen wir Erfolg",
-  "sucsess-paragraph-1": "<0>Die Akademie «Bildung der Zukunft» ist ein Raum für gemeinsamen und persönlichen Erfolg.</0><1>Bildung. Karriere. Arbeit. Geschäft.</1><2>Harmonie. Gesundheit. Familie.</2><3>Neue Bekanntschaften. Sport. Kreativität.</3>",
-  "sucsess-paragraph-2": "Gemeinsam erwerben wir neue Kenntnisse und Fähigkeiten, entwickeln uns weiter, reisen, treten in Universitäten ein, erziehen Kinder und erreichen einen Zustand des seelischen Gleichgewichts und der Harmonie mit der Umwelt. Gemeinsam nehmen wir ab, hören mit dem Rauchen auf und werden schädliche Gewohnheiten los, treiben Sport, gehen ins Kino und Theater. Gemeinsam gründen wir ein Unternehmen, starten Startups, finden einen neuen Job, verbessern uns selbst, bauen eine Karriere auf und wachsen beruflich.",
-  "sucsess-paragraph-3": "Gemeinsam lernen wir, lehren und erzielen Erfolg – heute, morgen und in der Zukunft.",
+  "success-title": "Gemeinsam schaffen wir Erfolg",
+  "success-paragraph-1": "Die Akademie «Bildung der Zukunft» ist ein Raum für gemeinsamen und persönlichen Erfolg.<0 /><1 />Bildung. Karriere. Arbeit. Geschäft.<2 />Harmonie. Gesundheit. Familie.<3 />Neue Bekanntschaften. Sport. Kreativität.",
+  "success-paragraph-2": "Gemeinsam erwerben wir neue Kenntnisse und Fähigkeiten, entwickeln uns weiter, reisen, treten in Universitäten ein, erziehen Kinder und erreichen einen Zustand des seelischen Gleichgewichts und der Harmonie mit der Umwelt. Gemeinsam nehmen wir ab, hören mit dem Rauchen auf und werden schädliche Gewohnheiten los, treiben Sport, gehen ins Kino und Theater. Gemeinsam gründen wir ein Unternehmen, starten Startups, finden einen neuen Job, verbessern uns selbst, bauen eine Karriere auf und wachsen beruflich.",
+  "success-paragraph-3": "Gemeinsam lernen wir, lehren und erzielen Erfolg – heute, morgen und in der Zukunft.",
   
   "footer-unregistered-association": "nicht eingetragener Verein",
   "footer-address": "Adresse",
@@ -106,5 +106,6 @@
   "footer-legal-data-protection": "Datenschutzerklärung",
   "footer-legal-cookie-policy": "Cookie-Richtung",
 
-  "button-participate": "Mitmachen"
+  "button-participate": "Mitmachen",
+  "link-learn-more": "Mehr erfahren"
 }

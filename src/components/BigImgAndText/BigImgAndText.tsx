@@ -31,7 +31,7 @@ type BigImgAndTextProps = {
 
 export default function BigImgAndText ({id, title, lead, text, picture, subtitles, isSubtitle=false}: BigImgAndTextProps) {
     return (
-        <section id={id}>
+        <section id={id} className='scroll-mt-20'>
             <Container>
                 <div className="flex flex-col p-4 lg:p-8 lg:m-8">
                     <div className="w-full max-h-[220px] lg:max-h-[400px] overflow-hidden rounded-3xl">

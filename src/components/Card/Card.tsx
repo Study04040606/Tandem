@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import { HashLink } from 'react-router-hash-link';
 
 type CardProps = {
@@ -9,6 +10,7 @@ type CardProps = {
 }
 
 export default function Card ({imageSrc, imageAlt, title, description, link}: CardProps) {
+    const { t } = useTranslation();
 
     return (
         <div className='border-neutral-200 rounded-lg shadow-md'>
@@ -20,7 +22,7 @@ export default function Card ({imageSrc, imageAlt, title, description, link}: Ca
                     <p className='mb-4'>{description}</p>
                     {link && (
                         <HashLink smooth className="underline underline-offset-8 decoration-neutral-600 hover:underline-offset-2" to={link}>
-                            Mehr erfahren →
+                            {t('link-learn-more')} →
                         </HashLink>
                     )} 
             </div>

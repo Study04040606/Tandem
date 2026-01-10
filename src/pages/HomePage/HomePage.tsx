@@ -12,12 +12,12 @@ const HomePage = () => {
   //TODO: почему не появляется <0> элемент?
   const SucsessParagraph1 = (
     <Trans
-      i18nKey="sucsess-paragraph-1"
+      i18nKey="success-paragraph-1"
       components={{
-        0: <p />,
-        1: <p />,
-        2: <p />,
-        3: <p />,
+        0: <br />,
+        1: <br />,
+        2: <br />,
+        3: <br />,
       }}
     />
   );
@@ -74,8 +74,8 @@ const HomePage = () => {
         text={[t('idea-paragraph-1'), t('idea-paragraph-2'), t('idea-paragraph-3')]}
       />
       <BigImgAndText
-        title={t('sucsess-title')}
-        text={[SucsessParagraph1, t('sucsess-paragraph-2'), t('sucsess-paragraph-3')]}
+        title={t('success-title')}
+        text={[SucsessParagraph1, t('success-paragraph-2'), t('success-paragraph-3')]}
         picture={{
           sources: [
             {
