@@ -12,7 +12,7 @@ return (
         <nav className="navbar shadow-sm">
             <div className="navbar-start">
                 <Link className="" to="/">
-                    <img src={logo} alt="Zukunft Akademie Logo" className="inline-block" />                    
+                    <img src={logo} alt="Zukunft Akademie Logo" className="inline-block h-[50px]" />                    
                 </Link>
             </div>
             <div className="navbar-end">
