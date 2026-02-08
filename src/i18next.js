@@ -14,7 +14,7 @@ i18n
       escapeValue: false, // not needed for react as it escapes by default
     },
   backend: {
-    loadPath: '/Tandem/locales/{{lng}}/{{ns}}.json', //TODO изметить путь на продакшене
+    loadPath: '/locales/{{lng}}/{{ns}}.json', //TODO изметить путь на продакшене
   }    
   });
 
