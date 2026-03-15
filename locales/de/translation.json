@@ -92,6 +92,24 @@
   "success-paragraph-2": "Gemeinsam erwerben wir neue Kenntnisse und Fähigkeiten, entwickeln uns weiter, reisen, treten in Universitäten ein, erziehen Kinder und erreichen einen Zustand des seelischen Gleichgewichts und der Harmonie mit der Umwelt. Gemeinsam nehmen wir ab, hören mit dem Rauchen auf und werden schädliche Gewohnheiten los, treiben Sport, gehen ins Kino und Theater. Gemeinsam gründen wir ein Unternehmen, starten Startups, finden einen neuen Job, verbessern uns selbst, bauen eine Karriere auf und wachsen beruflich.",
   "success-paragraph-3": "Gemeinsam lernen wir, lehren und erzielen Erfolg – heute, morgen und in der Zukunft.",
   
+  "participate-title": "Sprechen Club",
+  "participate-lead": "Um am Sprechen Club teilzunehmen, füllen Sie bitte das Formular aus",
+  "participate-name-label": "Name",
+  "participate-email-label": "Email Adrese",
+  "participate-message-label": "Nachricht",
+  "participate-name-required": "Name ist erforderlich",
+  "participate-email-required": "Email ist erforderlich",
+  "participate-message-required": "Nachricht ist erforderlich",
+  "participate-email-invalid": "Ungültige Email-Adresse",
+  "participate-name-min-length": "Name muss mindestens 2 Zeichen lang sein",
+  "participate-name-max-length": "Name darf maximal 50 Zeichen lang sein",
+  "participate-message-min-length": "Nachricht muss mindestens 2 Zeichen lang sein",
+  "participate-message-max-length": "Nachricht darf maximal 1000 Zeichen lang sein",
+  "participate-send-message-button": "Nachricht senden",
+  "participate-send-message-status-ok": "Nachricht senden",
+  "participate-send-message-status-sending": "Nachricht wird gesendet",
+  "participate-send-message-status-error": "Fehler beim Senden der Nachricht. Bitte versuchen Sie es später erneut.",
+
   "footer-unregistered-association": "nicht eingetragener Verein",
   "footer-address": "Adresse",
   "footer-address-street": "Str.",
@@ -108,4 +126,5 @@
 
   "button-participate": "Mitmachen",
   "link-learn-more": "Mehr erfahren"
+ 
 }
