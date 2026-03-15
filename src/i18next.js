@@ -9,12 +9,12 @@ i18n
   .use(HttpBackend)
   .init({
     fallbackLng: 'de',
-    debug: true,
+    debug: false,
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default
     },
   backend: {
-    loadPath: '/locales/{{lng}}/{{ns}}.json', //TODO изметить путь на продакшене
+    loadPath: '/locales/{{lng}}/{{ns}}.json',
   }    
   });
 
